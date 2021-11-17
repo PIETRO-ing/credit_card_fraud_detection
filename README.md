@@ -6,6 +6,7 @@
 
 The dataset size is exceed what you can upload in github.
 In order to that is necessary to install git lfs (https://git-lfs.github.com/).
+Inside the git repository run the following steps:
 - git lfs install
 - git lfs "*.csv"
 - git add .gitattributes
