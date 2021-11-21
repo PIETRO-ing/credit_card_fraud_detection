@@ -26,7 +26,7 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 
 ## AUC ROC 
 
-This dataset is higyly imbalanced so the usual accuracy or the confusion matrix doesn't tell much on how well the model perform.
+This dataset is highly imbalanced so the usual accuracy or the confusion matrix doesn't tell much on how well the model perform.
 
 
 
