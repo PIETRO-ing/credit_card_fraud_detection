@@ -1,12 +1,12 @@
-# Fraud Detection
+# Fraud Detection and Anomaly detection on credit card transactions
 
 ![](/Images/fraud-credit-card.jpg)
 
 ## Important Note
 
-The dataset size is exceed what you can upload in github.
+The dataset file size exceed what you can upload in github.
 In order to that is necessary to install git lfs (https://git-lfs.github.com/).
-Inside the git repository run the following steps:
+Inside the git repository run the following lines:
 - git lfs install
 - git lfs "*.csv"
 - git add .gitattributes
@@ -26,7 +26,11 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 
 ## AUC ROC 
 
-This dataset is highly imbalanced so the usual accuracy or the confusion matrix doesn't tell much on how well the model perform.
+This dataset is highly imbalanced so the usual accuracy or the confusion matrix doesn't tell much on how well the model perform. Just 0.172% of all transactions are fraud.
+To assess how well a model fits a dataset, we can look at the following two metrics:
+- Sensitivity: true positive rate
+- Specificity: true negative rate
+The ROC curve (receiver operating characteristic) and AUC (area under the curve) display on a plot this two metrics. 
 
 
 
