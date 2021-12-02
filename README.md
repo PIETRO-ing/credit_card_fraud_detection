@@ -32,5 +32,10 @@ To assess how well a model fits a dataset, we can look at the following two metr
 - Specificity: true negative rate
 The ROC curve (receiver operating characteristic) and AUC (area under the curve) display on a plot this two metrics. 
 
+## Model
 
+- Logistic Regressor
+- Random Forests Classifier
+- XGBoost
+- LightGBM
 
