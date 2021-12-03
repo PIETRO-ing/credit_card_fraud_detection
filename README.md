@@ -39,3 +39,10 @@ The ROC curve (receiver operating characteristic) and AUC (area under the curve)
 - XGBoost
 - LightGBM
 
+## Conclusion
+
+- Gradiend Boosting family are the best improvement over Logistic Regression and Random Forests
+
+- XGBoost and LightGBM are similar in their outcome but LightGBM is little bit better not only in performance but also in timing and cpu usage.
+
+
